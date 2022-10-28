@@ -1,4 +1,4 @@
-// capitulo https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
+// capitulo do desafio https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
 
 let game = ['papel', 'pedra', 'tesoura'];
 
