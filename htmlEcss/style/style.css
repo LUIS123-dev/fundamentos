@@ -1,0 +1,11 @@
+* {
+    background-color: rgb(139, 139, 236);
+    padding: 10%;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    border:2px solid rgb(17, 10, 0);
+    color: red;
+}

@@ -1,0 +1,15 @@
+
+.listaIngredientes{
+    background-color: black;
+    color: white;
+}
+
+#modoDePreparo{
+    background-color:palevioletred;
+    color: red;
+}
+
+.InformacaoAdicional{
+    background-color: rgb(197, 189, 189);
+}
+
