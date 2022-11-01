@@ -14,4 +14,3 @@ const theHobbit = new book('The Hobbit', 'John Ronald Reuel Tolkien', 500, false
 
 console.log(theHobbit)
 
-console.log(book.prototype)
