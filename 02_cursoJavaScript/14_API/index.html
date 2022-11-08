@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API</title>
+</head>
+
+<body>
+    <img src="#">
+    <script>
+        const img = document.querySelector('img')
+        fetch('https://api.giphy.com/v1/gifs/translate?api_key=yOYRAD6NZr19HoWZ8n9uxVMG4RNY48aB&s=cats', { mode: 'cors' })
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (response) {
+                img.src = response.data.images.original.url;
+            });
+    </script>
+</body>
+
+</html>
