@@ -1,4 +1,5 @@
 // URL (required), options (optional)
+
 fetch('https://url.com/some/url')
   .then(function(response) {
     // Successful response :)
@@ -6,3 +7,4 @@ fetch('https://url.com/some/url')
   .catch(function(err) {
     // Error :(
   });
+
