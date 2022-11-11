@@ -68,3 +68,4 @@ cityInput.addEventListener("keyup", (e) => {
         showWheatherData(city);
     }
 })
+
