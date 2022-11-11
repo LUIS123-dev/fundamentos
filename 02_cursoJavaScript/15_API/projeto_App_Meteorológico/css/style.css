@@ -86,7 +86,12 @@ body {
     justify-content: center;
     align-items:center;
     margin: .6rem 0;
+}
 
+
+#description-container{
+    font-weight: bold;
+    text-transform:capitalize;
 }
 
 #details-container{
@@ -95,7 +100,7 @@ body {
     align-items:center;
 }
 
-#details-container #umidity{
+#details-container #humidity{
     border-right: 1px solid #FFF;
     margin: .6rem ;
     padding: 0.6rem;
