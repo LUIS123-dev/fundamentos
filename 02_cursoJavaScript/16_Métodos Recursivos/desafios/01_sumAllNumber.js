@@ -4,13 +4,14 @@ Escreva uma função chamada sumRange. Ele pegará um número e retornará a som
 Exemplo: sumRange(3) retorna 6, pois 1 + 2 + 3 = 6.*/
 
 
-function check(num) {
-if(!Number.isInteger(num)) return "Error"
+
+
+var output = sumRange(3)
+console.log(output);
+
+function sumRange(num){
+	if(num == 1) return 1;
+
+	return num + sumRange(num -1 );
 }
-
-
-function
-
-
-
 
