@@ -29,3 +29,5 @@ function mergeSort(array) {
   console.log(mergeSort([1, 2, 4, 3])); // returns [1, 2, 3, 4]
   console.log(mergeSort([3, 4, 1, 2, 2])); // returns [1, 2, 2, 3, 4]
   console.log(mergeSort([1, 1, 9, 6, 3, 4, 2, 5])); // returns [1, 1, 2, 3, 4, 5, 6, 9]
+
+  module.exports = compare;

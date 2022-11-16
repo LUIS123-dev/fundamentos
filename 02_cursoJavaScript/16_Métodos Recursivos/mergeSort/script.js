@@ -37,3 +37,5 @@ function mergeSort(array) {
 }
 
 console.log(mergeSort([9, 7, 8, 5, 6, 2]))
+
+export {mergeSort};
