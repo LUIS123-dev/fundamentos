@@ -342,7 +342,6 @@ function inicia_jogo(){
                         movimenta['destino']['cor'] = peca[x][y]['cor'];	//destino recebe a cor selecionada
                     }
 
-
                     document.getElementById("t"+movimenta['selecionada']['x']+""+movimenta['selecionada']['y']).innerHTML = ""; //selcionada fica sem imagem
                     document.getElementById("t"+x+""+y).innerHTML = il[movimenta['selecionada']['cor']][movimenta['selecionada']['peca']]; //destino recebe a imagem da peça selecinada
                     peca[x][y]['peca']=movimenta['selecionada']['peca'];	//posicao destino recebe a peca
@@ -356,7 +355,6 @@ function inicia_jogo(){
                     movimenta['selecionada']['peca']="0";	//selecionada peca recebe 0 (pra na proxima ver q é o primeiro movimento)
                     movimenta['selecionada']['cor']="0";	//selecionada cor recebe 0 (pra na proxima ver q é o primeiro movimento)
 
-
                 }
 
                 volta_fundo(); //volta a cor de fundo normal
@@ -364,7 +362,6 @@ function inicia_jogo(){
                 if(vez=="branco"){vez="preto";}else{vez="branco";} //troca a vez
 
             }
-
 
 
     }
