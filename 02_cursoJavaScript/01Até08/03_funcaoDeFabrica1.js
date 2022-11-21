@@ -5,7 +5,7 @@ const personFactory = (name, age) => {
 
   const jeff = personFactory('jeff', 27);
 
-  console.log(jeff.name); // 'jeff'
+  console.log(jeff); // 'jeff'
 
   jeff.sayHello(); // calls the function and logs 'hello!'
 
